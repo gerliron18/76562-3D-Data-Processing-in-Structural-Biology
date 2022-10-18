@@ -1,0 +1,1 @@
+/usr/bin/c++.exe -g  -Wl,--enable-auto-import CMakeFiles/simple_example.dir/alignRand.cc.o  -o simple_example.exe -Wl,--out-implib,libsimple_example.dll.a -Wl,--major-image-version,0,--minor-image-version,0 

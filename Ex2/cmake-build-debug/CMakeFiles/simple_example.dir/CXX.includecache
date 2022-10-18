@@ -1,0 +1,154 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/AminoAcid.h
+vector
+-
+iostream
+-
+fstream
+-
+stdlib.h
+-
+PDB.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/PDB.h
+RigidTrans3.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/RigidTrans3.h
+
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/Atom.h
+Vector3.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/Vector3.h
+RigidTrans3.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/RigidTrans3.h
+PDB.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/PDB.h
+AminoAcid.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/AminoAcid.h
+string
+-
+
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/GeomHash.h
+HashLink.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/HashLink.h
+
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/HashLink.h
+HashResult.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/HashResult.h
+macros.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/macros.h
+math.h
+-
+cstdlib
+-
+iostream
+-
+cstddef
+-
+
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/HashResult.h
+vector
+-
+cstddef
+-
+
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/Match.h
+RigidTrans3.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/RigidTrans3.h
+vector
+-
+algorithm
+-
+
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/Matrix3.h
+math.h
+-
+iostream
+-
+macros.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/macros.h
+numerics.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/numerics.h
+Vector3.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/Vector3.h
+
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/Molecule.h
+fstream
+-
+iostream
+-
+vector
+-
+PDB.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/PDB.h
+RigidTrans3.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/RigidTrans3.h
+
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/PDB.h
+string
+-
+iostream
+-
+vector
+-
+
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/RigidTrans3.h
+Matrix3.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/Matrix3.h
+Rotation3.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/Rotation3.h
+iostream
+-
+
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/Rotation3.h
+iostream
+-
+numerics.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/numerics.h
+Matrix3.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/Matrix3.h
+
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/Vector3.h
+stdio.h
+-
+iostream
+-
+math.h
+-
+array
+-
+
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/alignRand.cc
+Vector3.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/Vector3.h
+Atom.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/Atom.h
+RigidTrans3.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/RigidTrans3.h
+Matrix3.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/Matrix3.h
+Molecule.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/Molecule.h
+PDB.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/PDB.h
+Match.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/Match.h
+GeomHash.h
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/GeomHash.h
+chrono
+-
+iostream
+-
+
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/macros.h
+stdio.h
+-
+string
+-
+
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/numerics.h
+

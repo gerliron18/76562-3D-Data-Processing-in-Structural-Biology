@@ -1,0 +1,4 @@
+C:\Users\User\AppData\Local\JetBrains\CLion2020.1\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" "/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/cmake-build-debug

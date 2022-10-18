@@ -1,0 +1,3 @@
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/cmake-build-debug/CMakeFiles/simple_example.dir
+/cygdrive/c/Users/User/Documents/Computitional Biology/Year3/Semester B/3D Data Processing in Structural Biology/Exercises/Ex2/3d_data_ex2/cmake-build-debug/CMakeFiles/edit_cache.dir
