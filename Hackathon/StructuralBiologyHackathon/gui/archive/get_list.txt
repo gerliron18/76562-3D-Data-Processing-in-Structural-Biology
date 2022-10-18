@@ -1,0 +1,13 @@
+# def get_list():
+#     l = []
+#     for i in range(100):
+#         l2 = []
+#         for j in range(20):
+#             p = Particle.TCR(np.random.randint(0, 900), np.random.randint(0, 900))
+#             l2.append(p)
+#         for j in range(10):
+#             p =Particle.MHC(np.random.randint(0, 900), np.random.randint(0, 900))
+#             l2.append(p)
+#
+#         l.append(l2)
+#     return l

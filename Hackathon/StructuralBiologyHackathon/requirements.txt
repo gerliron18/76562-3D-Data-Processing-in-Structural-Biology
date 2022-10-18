@@ -1,0 +1,5 @@
+# run in python: imageio.plugins.ffmpeg.download()
+
+PySimpleGUI
+moviepy
+opencv-python

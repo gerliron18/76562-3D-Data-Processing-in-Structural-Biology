@@ -1,0 +1,69 @@
+from tkinter import *
+from tkinter.filedialog import askopenfile
+import imageio
+from tkinter import Tk, Label
+from PIL import ImageTk, Image
+import StructuralBiologyHackathon.gui.gen_png_mp4 as mp
+
+global begin_frame, end_frame
+
+
+def open_begin_file():
+    global begin_frame
+    file = askopenfile(mode='r', filetypes=[('JPEG files', '*.jpg')])
+    if file is not None:
+        begin_frame = file.name
+
+
+def open_end_file():
+    global end_frame
+    file = askopenfile(mode='r', filetypes=[('JPEG files', '*.jpg')])
+    if file is not None:
+        end_frame = file.name
+
+
+def stream(label, video):
+    try:
+        image = video.get_next_data()
+    except:
+        video.close()
+        return
+    label.after(int(1000 / video.get_meta_data()['fps'], lambda: stream(label, video)))
+    frame_image = ImageTk.PhotoImage(Image.fromarray(image))
+    label.config(image=frame_image)
+    label.image = frame_image
+
+
+def main():
+    global begin_frame, end_frame
+
+    r = Tk()
+    r.geometry('500x500')
+    r.title('Synapse simulation')
+
+    w = Label(r, text='Develop and apply simulation of immune synapse '
+                      'dynamics tool')
+    w.pack()
+
+    begin_bt = Button(r, text='Upload beginning state frame', command=lambda: open_begin_file())
+    begin_bt.pack(side=TOP, pady=10)
+
+    end = Button(r, text='Upload end state frame', command=lambda: open_end_file())
+    end.pack(side=TOP, pady=10)
+
+    video_name = None
+    video = imageio.get_reader(video_name)
+    delay = int(1000 / video.get_meta_data()['fps'])
+
+    vid_label = Label(r)
+    vid_label.pack()
+    vid_label.after(delay, lambda: stream(vid_label, video))
+
+    exit_bt = Button(r, text='Exit', width=25, command=r.destroy)
+    exit_bt.pack()
+
+    r.mainloop()
+
+
+if __name__ == '__main__':
+    main()
